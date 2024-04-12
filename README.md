@@ -52,33 +52,33 @@ sudo nc example.com 80
 GET / HTTP/1.1
 Host: example.com
 
-![2.4](<VirtualBox_kali-linux-2024.1-virtualbox-amd64_12 2024-04-10 081727.png>)
+![2.4](<Screenshot_2024-04-10 081727.png>)
 
 2) Nmap:
 
-![2.5](<VirtualBox_kali-linux-2024.1-virtualbox-amd64_12 2024-04-10 082042.png>)
+![2.5](<Screenshot 2024-04-10 082042.png>)
 
 3) Whatweb:
 
-![2.6](<VirtualBox_kali-linux-2024.1-virtualbox-amd64_12 2024-04-10 082301.png>)
+![2.6](<Screenshot 2024-04-10 082301.png>)
 
 4) httprint:
 
-![2.8](<VirtualBox_kali-linux-2024.1-virtualbox-amd64_12 2024-04-10 082220.png>)
+![2.8](<Screenshot 2024-04-10 082220.png>)
 ### Tracing the Location
 1) TCP Traceroute:
 sudo traceroute -T www.google.com
 
-![alt text](<VirtualBox_kali-linux-2024.1-virtualbox-amd64_12 2024-04-10 082627.png>)
+![alt text](<Screenshot 2024-04-10 082627.png>)
 
 2) UDP Traceroute:
 sudo traceroute -U www.google.com
 
-![alt text](<VirtualBox_kali-linux-2024.1-virtualbox-amd64_12 2024-04-10 082714.png>)
+![alt text](<Screenshot 2024-04-10 082714.png>)
 
 3) ICMP Traceroute:
 sudo traceroute  www.google.com
-![alt text](<VirtualBox_kali-linux-2024.1-virtualbox-amd64_12 2024-04-10 082736.png>)
+![alt text](<Screenshot 2024-04-10 082736.png>)
 
 ![alt text](image-1.png)
 ## RESULT:
